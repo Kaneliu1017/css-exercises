@@ -1,1 +1,5 @@
-/* Add CSS Styling */
+.container .text{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}/* Add CSS Styling  Don't rely on inheritance/visual overlap as a substitute for actually selecting the element you mean to style. If the goal is "style the paragraphs inside this container," select the paragraphs directly (.container .text) — not just the container itself.*/
